@@ -1,0 +1,54 @@
+body,html{
+    height: 100%;
+}
+.background{
+    background: #1cec38;
+    /*background-image: linear-gradient(125deg,#023108,#086d16,#13b428,#1cec38,#065210,#022b08);*/
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 400%;
+    animation: bganimation 15s infinite;
+}
+.header1{
+    alignment: center;
+}
+@keyframes bganimation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.footer1 {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*color: white;*/
+    text-align: center;
+}
+.container { margin-top: 10px; }
+
+.progress-bar-vertical {
+  width: 20px;
+  min-height: 100px;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 20px;
+  float: left;
+}
+
+.progress-bar-vertical .progress-bar {
+  width: 100%;
+  height: 0;
+  -webkit-transition: height 0.6s ease;
+  -o-transition: height 0.6s ease;
+  transition: height 0.6s ease;
+}
