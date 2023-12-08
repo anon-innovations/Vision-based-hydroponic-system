@@ -1,0 +1,2 @@
+# Vision based hydroponic system
+ The Vision-Based Hydroponic System pioneers a new era in agriculture by fusing state-of-the-art computer vision with hydroponics. Utilizing cameras and AI algorithms, it monitors plant health, growth patterns, and nutrient levels in real-time, while also managing pH, conductivity, and automating watering and fertilizer processes. This intelligent system optimizes cultivation, guaranteeing efficient resource use and maximizing yields, representing a sustainable breakthrough in farming innovation.
